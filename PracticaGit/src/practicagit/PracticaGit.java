@@ -5,6 +5,8 @@
  */
 package practicagit;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Juan Francisco Zamora Agudo
@@ -19,6 +21,8 @@ public class PracticaGit {
         
         
         // 2º Crea obetos con las clases nuevas y utilizalas
+        GeorgeMitica gm  = new GeorgeMitica();
+        JOptionPane.showMessageDialog(null, gm.toString());
     }
     
 }
