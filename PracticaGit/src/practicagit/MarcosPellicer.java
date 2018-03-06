@@ -13,11 +13,12 @@ public class MarcosPellicer {
     private String nombre;
 
     public MarcosPellicer() {
+    nombre="marcos";
     }
 
     @Override
     public String toString() {
-        return "MarcosPellicer " + " nombre=" + nombre + '}';
+        return "nombre=" + nombre;
     }
     
     
