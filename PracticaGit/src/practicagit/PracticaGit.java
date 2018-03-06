@@ -22,6 +22,11 @@ public class PracticaGit {
         
         // 2º Crea obetos con las clases nuevas y utilizalas
 
+         
+        FranciscoVara   yo = new FranciscoVara("");
+        System.out.println(yo);
+
+
         Andres andres = new Andres();
         System.out.println(andres.toString());
 
@@ -32,7 +37,6 @@ public class PracticaGit {
   
         GeorgeMitica gm  = new GeorgeMitica();
         JOptionPane.showMessageDialog(null, gm.toString());
-
 
     }
     
