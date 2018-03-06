@@ -5,6 +5,8 @@
  */
 package practicagit;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Juan Francisco Zamora Agudo
@@ -19,9 +21,23 @@ public class PracticaGit {
         
         
         // 2º Crea obetos con las clases nuevas y utilizalas
+
          
         FranciscoVara   yo = new FranciscoVara("");
         System.out.println(yo);
+
+
+        Andres andres = new Andres();
+        System.out.println(andres.toString());
+
+
+        JavierSancho js = new JavierSancho();
+        System.out.println(js);
+
+  
+        GeorgeMitica gm  = new GeorgeMitica();
+        JOptionPane.showMessageDialog(null, gm.toString());
+
     }
     
 }
