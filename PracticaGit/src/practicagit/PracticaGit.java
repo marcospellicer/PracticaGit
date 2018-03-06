@@ -19,6 +19,10 @@ public class PracticaGit {
         
         
         // 2º Crea obetos con las clases nuevas y utilizalas
+        
+        MarcosPellicer m = new MarcosPellicer();
+                
+        System.out.println(m);
     }
     
 }
