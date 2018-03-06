@@ -19,6 +19,9 @@ public class PracticaGit {
         
         
         // 2º Crea obetos con las clases nuevas y utilizalas
+         
+        FranciscoVara   yo = new FranciscoVara("");
+        System.out.println(yo);
     }
     
 }
