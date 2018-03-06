@@ -18,7 +18,7 @@ public class PracticaGit {
         // 1º Crea una clase con tu nombre
         
         
-        // 2º Comming soon
+        // 2º Crea obetos con las clases nuevas y utilizalas
     }
     
 }
